@@ -1,5 +1,5 @@
 import './App.css';
-import ShopingPage from "./Pages/ShopingPage";
+import ShopingPage from "./Pages/ShopPage/ShopingPage";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {ScrollProvider} from "./Components/Scroll/Scroll";
 import HomePage from "./Pages/Home/HomePage";
