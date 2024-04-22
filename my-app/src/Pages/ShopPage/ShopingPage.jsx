@@ -2,6 +2,7 @@ import React from 'react';
 import ShoppingPageProducts from '../../Components/CompForShopingPage/ShopingPageProducts';
 import SocksSalt from '../../Images/SocksSalt.jpg';
 import './ShopPage.css';
+import Header from "../../Components/Header/Header";
 
 const products = [
     {
@@ -41,6 +42,7 @@ const products = [
 const ShoppingPage = () => {
     return (
         <div className="ShoppingPage">
+            <Header/>
             <div style={{margin:'0px auto', width:'80%'}}>
                 <div style={{display:'flex', justifyContent:'center'}}>
                     <div style={{width:'200px', border:'1px solid black', padding:'30px', marginTop:'20px'}}>
