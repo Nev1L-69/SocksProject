@@ -1,0 +1,33 @@
+.header {
+    background: #ffffff;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-bottom: 1px solid #D7D7D7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+}
+.logoBlock{
+
+}
+.regBlock{
+    background-color: black;
+    color: white;
+}
+.location{
+
+    color: white;
+    font-size: 15px;
+}
