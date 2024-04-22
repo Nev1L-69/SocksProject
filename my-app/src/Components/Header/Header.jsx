@@ -9,11 +9,11 @@ const Header = () => {
             <div className={classes.regBlock}>
                 <div className={classes.wrapper}>
                     <div className={classes.location}>
-                        <Link to={'/'}>
+                        <Link to={'/'} className={classes.link_base}>
                             <h3>Location <EnvironmentOutlined /></h3>
-
                         </Link>
                     </div>
+
                     <div></div>
                 </div>
             </div>

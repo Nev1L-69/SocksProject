@@ -25,9 +25,19 @@ a{
 .regBlock{
     background-color: black;
     color: white;
+    margin: 0;
+
+}
+h3{
+    margin: 5px;
+
 }
 .location{
 
     color: white;
     font-size: 15px;
+    margin: 0;
+}
+.link_base{
+    color: white;
 }
