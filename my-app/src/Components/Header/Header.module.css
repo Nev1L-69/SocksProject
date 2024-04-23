@@ -18,26 +18,31 @@ a{
     align-items: center;
 }
 .logoBlock{
-
+    color: #0dceb5;
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+    font-weight: bold;
+    border-bottom:solid 3px #0dceb5 ;
 }
 .regBlock{
     background-color: black;
     color: white;
     margin: 0;
-
+}
+p{
+    margin: 0;
 }
 .h3_header{
+    color: white;
     margin: 5px;
     padding-right: 15px;
 }
 .location{
-
     color: white;
     font-size: 15px;
     margin: 0;
 }
 .link_base{
-    color: white;
     display: flex;
 }
 .othertxt{
@@ -45,5 +50,9 @@ a{
 }
 .icon_head{
     padding: 0 10px 0 10px;
+}
+.logos{
+    width: 100%;
+    border-bottom: solid 1px #5aa89a;
 }
 

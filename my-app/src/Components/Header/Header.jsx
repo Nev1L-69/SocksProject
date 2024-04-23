@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Header.module.css';
 import {Link} from "react-router-dom";
-import {EnvironmentOutlined, GiftOutlined, HeartOutlined, UserOutlined} from "@ant-design/icons";
+import {EnvironmentOutlined, GiftOutlined, HeartOutlined, SmileOutlined, UserOutlined} from "@ant-design/icons";
 
 const Header = () => {
     return (
@@ -28,13 +28,20 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className={classes.wrapper}>
-                <div className={classes.logoBlock}>
-                    <Link to={'/'} >
-                        <h1>SOCKS & BATYRBEK</h1>
+            <div className={classes.logos}>
+                <div className={classes.wrapper }>
+                    <Link to={'/'} className={classes.link_base}>
+                        <div className={classes.logoBlock}>
+                            <p>Socks&Batyrbek</p>
+                        </div>
                     </Link>
-                </div>
 
+                </div>
+            </div>
+            <div className={classes.wrapper }>
+                <Link to={'/'} className={classes.link_base}>
+                    <SmileOutlined style={{fontSize: "35px", color: "black", paddingTop: "8px"}} />
+                </Link>
             </div>
         </div>
     );
