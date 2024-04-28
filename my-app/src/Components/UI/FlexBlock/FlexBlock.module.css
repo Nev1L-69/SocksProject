@@ -1,0 +1,19 @@
+.flexBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.flexDirectionColumn {
+    flex-direction: column;
+}
+.flexStart {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.flexWrap {
+    flex-wrap: wrap;
+}

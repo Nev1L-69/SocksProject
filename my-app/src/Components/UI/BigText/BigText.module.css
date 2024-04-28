@@ -1,0 +1,12 @@
+.bigText {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+    .bigText {
+        font-size: 1.25rem;
+    }
+}

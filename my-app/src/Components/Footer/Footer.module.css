@@ -1,0 +1,90 @@
+/* footer.module.css */
+
+.footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 100px;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.footer .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer h6 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    color: #999;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0px 0px;
+
+}
+
+.footer li {
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer form {
+    margin-top: 1rem;
+}
+
+.footer label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #999;
+}
+
+.footer input[type="email"] {
+    display: block;
+    width: 300px;
+    padding: 0.5rem;
+    background-color: #444;
+    border: none;
+    color: #fff;
+}
+
+.footer input[type="email"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.footer button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #666;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer button[type="submit"]:hover {
+    background-color: #555;
+}

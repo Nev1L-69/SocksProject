@@ -3,6 +3,7 @@ import ShopingPage from "./Pages/ShopPage/ShopingPage";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {ScrollProvider} from "./Components/Scroll/Scroll";
 import HomePage from "./Pages/Home/HomePage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
 
                 </Routes>
             </Router>
+            <Footer/>
         </ScrollProvider>
+
   );
 }
 
